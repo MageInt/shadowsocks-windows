@@ -1,11 +1,11 @@
-﻿using System;
+﻿using NLog;
+using Shadowsocks.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
-using NLog;
-using Shadowsocks.Model;
 
 namespace Shadowsocks.Controller
 {
@@ -208,7 +208,7 @@ namespace Shadowsocks.Controller
                         return;
                     }
                 }
-                Shutdown:
+            Shutdown:
                 // no service found for this
                 if (conn.ProtocolType == ProtocolType.Tcp)
                 {

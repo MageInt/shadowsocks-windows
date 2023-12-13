@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Shadowsocks.Util.SystemProxy;
+using System;
 using System.ComponentModel;
-using System.Net.Sockets;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
-using Shadowsocks.Util.SystemProxy;
 
 namespace NLog
 {

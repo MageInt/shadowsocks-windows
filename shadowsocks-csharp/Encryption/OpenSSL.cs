@@ -1,13 +1,13 @@
-﻿using System;
-using System.IO;
-using System.Runtime.InteropServices;
-using System.Security;
-using System.Text;
-using NLog;
+﻿using NLog;
 using Shadowsocks.Controller;
 using Shadowsocks.Encryption.Exception;
 using Shadowsocks.Properties;
 using Shadowsocks.Util;
+using System;
+using System.IO;
+using System.Runtime.InteropServices;
+using System.Security;
+using System.Text;
 
 namespace Shadowsocks.Encryption
 {

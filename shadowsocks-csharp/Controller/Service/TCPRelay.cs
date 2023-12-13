@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Sockets;
-using System.Timers;
-
-using NLog;
-
+﻿using NLog;
 using Shadowsocks.Controller.Strategy;
 using Shadowsocks.Encryption;
 using Shadowsocks.Encryption.AEAD;
@@ -14,7 +6,12 @@ using Shadowsocks.Encryption.Exception;
 using Shadowsocks.Model;
 using Shadowsocks.Proxy;
 using Shadowsocks.Util.Sockets;
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Net.Sockets;
+using System.Timers;
 using static Shadowsocks.Encryption.EncryptorBase;
 
 namespace Shadowsocks.Controller

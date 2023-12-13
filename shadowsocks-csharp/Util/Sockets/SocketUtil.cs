@@ -60,6 +60,6 @@ namespace Shadowsocks.Util.Sockets
             {
             }
         }
-        
+
     }
 }

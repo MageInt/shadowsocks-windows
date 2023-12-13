@@ -74,7 +74,7 @@ namespace Shadowsocks.Controller
         public static void RequestOpenUrl(string url)
         {
             (NamedPipeClientStream pipe, bool exist) = TryConnect();
-            if(!exist) return;
+            if (!exist) return;
             byte[] opAddUrl = BitConverter.GetBytes(IPAddress.HostToNetworkOrder(OP_OPEN_URL));
             pipe.Write(opAddUrl, 0, INT32_LEN); // opcode addurl
             byte[] b = Encoding.UTF8.GetBytes(url);

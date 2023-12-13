@@ -1,14 +1,14 @@
-﻿using NLog;
+﻿using Microsoft.Win32;
+using NLog;
+using Shadowsocks.Model;
 using System;
+using System.Drawing;
 using System.IO;
 using System.IO.Compression;
 using System.Windows.Forms;
-using Microsoft.Win32;
-using Shadowsocks.Model;
-using System.Drawing;
 using ZXing;
-using ZXing.QrCode;
 using ZXing.Common;
+using ZXing.QrCode;
 
 namespace Shadowsocks.Util
 {

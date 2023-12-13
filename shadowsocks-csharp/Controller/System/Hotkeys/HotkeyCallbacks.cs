@@ -30,7 +30,7 @@ namespace Shadowsocks.Controller.Hotkeys
         }
 
         #region Singleton 
-        
+
         private static HotkeyCallbacks Instance { get; set; }
 
         private readonly ShadowsocksController _controller;

@@ -1,11 +1,11 @@
-﻿using System;
+﻿using Shadowsocks.Model;
+using Shadowsocks.Util.ProcessManagement;
+using System;
 using System.Collections.Specialized;
 using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Shadowsocks.Model;
-using Shadowsocks.Util.ProcessManagement;
 
 namespace Shadowsocks.Controller.Service
 {
@@ -125,7 +125,7 @@ namespace Shadowsocks.Controller.Service
             // Expand the environment variables from the new process itself
             if (environmentVariables != null)
             {
-                foreach(string key in environmentVariables.Keys)
+                foreach (string key in environmentVariables.Keys)
                 {
                     name = name.Replace($"%{key}%", environmentVariables[key]);
                 }

@@ -1,15 +1,15 @@
-﻿using System;
+﻿using NLog;
+using Shadowsocks.Model;
+using Shadowsocks.Properties;
+using Shadowsocks.Util;
+using Shadowsocks.Util.ProcessManagement;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using NLog;
-using Shadowsocks.Model;
-using Shadowsocks.Properties;
-using Shadowsocks.Util;
-using Shadowsocks.Util.ProcessManagement;
 
 namespace Shadowsocks.Controller
 {

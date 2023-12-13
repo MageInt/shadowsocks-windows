@@ -1,4 +1,8 @@
-﻿using System;
+﻿using NLog;
+using Shadowsocks.Controller.Service;
+using Shadowsocks.Controller.Strategy;
+using Shadowsocks.Model;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
@@ -9,10 +13,6 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NLog;
-using Shadowsocks.Controller.Service;
-using Shadowsocks.Controller.Strategy;
-using Shadowsocks.Model;
 using WPFLocalizeExtension.Engine;
 
 namespace Shadowsocks.Controller

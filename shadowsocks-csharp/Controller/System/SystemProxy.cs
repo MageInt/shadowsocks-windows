@@ -1,8 +1,8 @@
-﻿using System;
-using System.Windows.Forms;
-using NLog;
+﻿using NLog;
 using Shadowsocks.Model;
 using Shadowsocks.Util.SystemProxy;
+using System;
+using System.Windows.Forms;
 
 namespace Shadowsocks.Controller
 {

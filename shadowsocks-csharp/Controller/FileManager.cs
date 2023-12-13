@@ -32,7 +32,7 @@ namespace Shadowsocks.Controller
             byte[] buffer = new byte[4096];
             int n;
 
-            using(var fs = File.Create(fileName))
+            using (var fs = File.Create(fileName))
             using (var input = new GZipStream(new MemoryStream(content),
                     CompressionMode.Decompress, false))
             {

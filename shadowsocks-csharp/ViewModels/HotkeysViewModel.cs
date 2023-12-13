@@ -16,7 +16,7 @@ namespace Shadowsocks.ViewModels
             _config = Program.MainController.GetCurrentConfiguration();
             _controller = Program.MainController;
             _menuViewController = Program.MenuController;
-            
+
             HotkeySystemProxy = _config.hotkey.SwitchSystemProxy;
             HotkeyProxyMode = _config.hotkey.SwitchSystemProxyMode;
             HotkeyAllowLan = _config.hotkey.SwitchAllowLan;

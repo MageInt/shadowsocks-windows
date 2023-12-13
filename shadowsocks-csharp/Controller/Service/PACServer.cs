@@ -1,11 +1,11 @@
-﻿using Shadowsocks.Encryption;
+﻿using NLog;
+using Shadowsocks.Encryption;
 using Shadowsocks.Model;
 using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Web;
-using NLog;
 
 namespace Shadowsocks.Controller
 {
@@ -169,7 +169,7 @@ namespace Shadowsocks.Controller
 $@"HTTP/1.1 200 OK
 Server: ShadowsocksWindows/{UpdateChecker.Version}
 Content-Type: application/x-ns-proxy-autoconfig
-Content-Length: { Encoding.UTF8.GetBytes(pacContent).Length}
+Content-Length: {Encoding.UTF8.GetBytes(pacContent).Length}
 Connection: Close
 
 ";

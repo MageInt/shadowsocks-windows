@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using NLog;
+using Shadowsocks.Controller;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Windows;
-using Newtonsoft.Json;
-using NLog;
-using Shadowsocks.Controller;
 
 namespace Shadowsocks.Model
 {
@@ -119,7 +119,7 @@ namespace Shadowsocks.Model
 #if DEBUG
         private static readonly NLogConfig.LogLevel verboseLogLevel = NLogConfig.LogLevel.Trace;
 #else
-        private static readonly NLogConfig.LogLevel verboseLogLevel =  NLogConfig.LogLevel.Debug;
+        private static readonly NLogConfig.LogLevel verboseLogLevel = NLogConfig.LogLevel.Debug;
 #endif
 
         [JsonIgnore]

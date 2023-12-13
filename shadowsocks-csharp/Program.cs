@@ -1,10 +1,3 @@
-using System;
-using System.Diagnostics;
-using System.IO;
-using System.Net;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using CommandLine;
 using Microsoft.Win32;
 using NLog;
@@ -12,6 +5,13 @@ using Shadowsocks.Controller;
 using Shadowsocks.Controller.Hotkeys;
 using Shadowsocks.Util;
 using Shadowsocks.View;
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Net;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 using WPFLocalizeExtension.Engine;
 
 namespace Shadowsocks
@@ -137,7 +137,7 @@ namespace Shadowsocks
                 await MainController.UpdateAllOnlineConfig();
             });
 
-#region IPC Handler and Arguement Process
+            #region IPC Handler and Arguement Process
             IPCService ipcService = new IPCService();
             Task.Run(() => ipcService.RunServer());
             ipcService.OpenUrlRequested += (_1, e) => MainController.AskAddServerBySSURL(e.Url);
@@ -146,8 +146,8 @@ namespace Shadowsocks
             {
                 MainController.AskAddServerBySSURL(Options.OpenUrl);
             }
-#endregion
-            
+            #endregion
+
             Application.Run();
 
         }

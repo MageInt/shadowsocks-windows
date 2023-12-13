@@ -1,15 +1,15 @@
-﻿using System;
-using System.Diagnostics;
-using System.IO;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Windows;
-using Newtonsoft.Json.Linq;
+﻿using Newtonsoft.Json.Linq;
 using NLog;
 using Shadowsocks.Localization;
 using Shadowsocks.Model;
 using Shadowsocks.Util;
 using Shadowsocks.Views;
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Windows;
 
 namespace Shadowsocks.Controller
 {

@@ -1,12 +1,12 @@
-﻿using System;
+﻿using NLog;
+using Shadowsocks.Controller.Strategy;
+using Shadowsocks.Encryption;
+using Shadowsocks.Model;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Runtime.CompilerServices;
-using NLog;
-using Shadowsocks.Controller.Strategy;
-using Shadowsocks.Encryption;
-using Shadowsocks.Model;
 
 namespace Shadowsocks.Controller
 {
