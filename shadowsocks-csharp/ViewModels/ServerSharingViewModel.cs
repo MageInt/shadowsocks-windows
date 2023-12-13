@@ -5,7 +5,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Reactive;
 using System.Windows;
 using System.Windows.Media.Imaging;

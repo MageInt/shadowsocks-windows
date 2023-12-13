@@ -1,11 +1,8 @@
 ﻿using NLog;
 using Shadowsocks.Model;
 using Shadowsocks.Properties;
-using Shadowsocks.Util;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 

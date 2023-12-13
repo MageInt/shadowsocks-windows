@@ -1,22 +1,17 @@
 using System;
 using System.Diagnostics;
 using System.IO;
-using System.IO.Pipes;
 using System.Net;
-using System.Reflection;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CommandLine;
 using Microsoft.Win32;
 using NLog;
-using ReactiveUI;
 using Shadowsocks.Controller;
 using Shadowsocks.Controller.Hotkeys;
 using Shadowsocks.Util;
 using Shadowsocks.View;
-using Splat;
 using WPFLocalizeExtension.Engine;
 
 namespace Shadowsocks

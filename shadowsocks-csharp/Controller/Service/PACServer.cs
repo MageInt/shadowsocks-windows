@@ -1,6 +1,5 @@
 ﻿using Shadowsocks.Encryption;
 using Shadowsocks.Model;
-using Shadowsocks.Util;
 using System;
 using System.Net;
 using System.Net.Sockets;

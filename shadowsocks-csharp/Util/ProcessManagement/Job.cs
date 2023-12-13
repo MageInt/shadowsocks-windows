@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using NLog;
-using Shadowsocks.Controller;
 
 namespace Shadowsocks.Util.ProcessManagement
 {

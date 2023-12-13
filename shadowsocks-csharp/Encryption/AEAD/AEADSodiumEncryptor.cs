@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using NLog;
-using Shadowsocks.Controller;
 using Shadowsocks.Encryption.Exception;
 
 namespace Shadowsocks.Encryption.AEAD

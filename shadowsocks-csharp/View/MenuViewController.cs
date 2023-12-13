@@ -14,9 +14,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Windows.Forms.Integration;
 using System.Windows.Threading;
-using ZXing;
-using ZXing.Common;
-using ZXing.QrCode;
 
 namespace Shadowsocks.View
 {

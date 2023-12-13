@@ -5,7 +5,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Windows.Forms;
 using NLog;
 using Shadowsocks.Model;
 using Shadowsocks.Properties;
